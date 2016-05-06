@@ -59,9 +59,40 @@
 					<a href="tel:+5735866565" title="Telefono"><strong>Telefono</strong> <span>960254752</span></a><!-- tel -->
 					<a href="mailito:contacto@mimailito.com" title="E-Mail"><strong>E-mail</strong> <span>cotacto@mimailito.com</span></a><!-- email -->
 				</div>
-				<div class="formulario">
+				<form class="formulario">
+					<label for="nombre">Nombre</label>
+					<input type="text" name="nombre" id="nombre" placeholder="Escriba su nombre" required />
+					<label for="email">E-mail</label>
+					<input type="email" name="email" id="email" placeholder="Escriba su correo" required />
+					<div class="sexo">
+						<label for="mujer">
+							<input type="radio" id="mujer" name="sexo" value="mujer"/> Mujer
+						</label>
+						<label for="hombre">
+							<input type="radio" id="hombre" name="sexo" value="hombre"/> Hombre
+						</label>
+					</div>
+					<div class="intereses">
+						<label for="cotizacion">
+							<input type="checkbox" name="intereses" value="Cotización" id="cotizacion"/> Cotización
+						</label>
+						<label for="reclamos">
+							<input type="checkbox" name="intereses" value="Reclamos" id="reclamos"/> Reclamos
+						</label>
+						<label for="comentarios">
+							<input type="checkbox" name="intereses" value="Comentarios" id="comentarios"/> Comentarios
+						</label>
+						<label for="otros">
+							<input type="checkbox" name="intereses" value="Otros" id="otros"/> Otros
+						</label>
+					</div>
+					<div>
+						<label for="comentarios">Comentarios</label>
+						<textarea name="comentarios" id="comentarios" cols="30" rows="7"></textarea>
+						<button type="submit" >Enviar</button>
+					</div>
 					<!-- formulario -->
-				</div>
+				</form>
 			</div>
 		</footer>
 	</body>
