@@ -1,0 +1,90 @@
+comandos git
+
+git config --global user.name "Renattonl"
+//otra alternativa
+git config --global user.name Renattonl
+
+
+Para cambiar el username
+
+git config --global user.name "Renattonl2"
+//otra alternativa
+git config --global user.name Renattonl2
+
+
+para agregar un correo
+
+git. config --global user.email "renattonl@gmail.com"
+
+
+poner colores
+
+git config --global color.ui true
+
+listar nuestra configuraciones
+
+git config --global --list
+
+primer comando .. solo se usa cuando se empieza un proyecto
+
+git init
+
+agregar
+
+git add
+
+Agregar todo
+git add -A
+
+agreganod comentario 
+git commit -m "mi mensaje"
+
+lista de todos los commit 
+git log
+
+viaje en el tiempo copiamos el commit
+git checkout 16556464asda
+
+nos mueve al ultimo commit
+git checkout master
+
+resetaer el mas simple .. borra el commit pero no el codigo
+git reset --soft
+
+no se usa muy bien
+git reset -mixed
+
+es el mas peligroso
+git reset --hard
+
+muestra las ramas
+git branch
+
+creamos una rama
+git branch Test
+
+cambiamos de rama
+git checkout Test
+
+
+borrar la rama 
+git branch -D Test
+
+
+
+Clonar proyectos
+git clone https://github.com/jquery/jquery.git
+
+
+vincula nuestro proyecto local con remoto
+git remote add origin https://github.com/renattonl/proyectoweb.git
+
+ver comoo esta
+git remote -v
+
+quitar la conexion
+git remote remove origin
+
+agregando a github
+git push origin master
+

@@ -2,56 +2,56 @@
 <html lang="es">
 	<head>
 		<meta charset="utf-8" />
-		<title>Este es mi primer proyecto</title>
+		<title>Precios de la web</title>
 		<link rel="stylesheet" type="text/css" href="css/invie.css">
 		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Allerta' rel='stylesheet' type='text/css'>
 	</head>
-	<body>			
-		<section id="portada" class="portada background">
-			<header id="header" class="header contenedor">
+	<body>
+		<header id="header" class="header background">
+			<div class="contenedor">
 				<figure class="logotipo"><!-- logotipo -->
 					<img width="186" height="60" src="images/invie.png" alt="Invie Logotipo" />
 				</figure>
 				<nav class="menu">
 					<ul>
 						<li><a href="index.html" title="Home">Home</a></li>
-						<li><a href="#guitarras" title="Guitarras">Guitarras</a></li>
+						<li><a href="index.html#guitarras" title="Guitarras"> Guitarras</a></li>
 						<li><a href="precios.html" title="Precios">Precios</a></li>
 					</ul>
 				</nav>
 				<!-- menu -->
-			</header><!-- /header -->
+			</div>				
+		</header><!-- /header -->
+		<section class="tabla">
 			<div class="contenedor">
-				<h1 class="titulo">Guitarras <span>invie</span>sibles</h1><!-- titulo -->
-				<h3 class="title-a">Sé la estrella de rock que siempre quisiste ser</h3><!-- resumen -->
-				<a class="button" href="index.html#guitarras">Conoce más</a><!-- boton -->
-			</div>
-		</section><!-- portada -->
-		<section id="guitarras" class="guitarras contenedor">
-			<h2>Nuestras guitarras</h2><!-- titulo -->
-			<article class="guitarra">
-				<img class="right" src="images/invie-acustica.png" alt="Mi Guitarra Acustica" alt="Guitarra Invie Acustica" width="350" />
-				<div class="contenedor-guitarra-a">
-					<h3 class="title-b">Invie Acustica</h3>
-					<ol>
-						<li>Estilo vintage</li>
-						<li>Madera pura</li>
-						<li>Incluye estuche invisible de aluminio</li>
-					</ol>
-				</div>
-			</article><!-- guitarra1 -->
-			<article class="guitarra b">
-				<img class="left" src="images/invie-classic.png" alt="Mi Guitarra Classic" width="350">
-				<div class="contenedor-guitarra-b">					
-					<h3 class="title-b">Invie Classic</h3>
-					<ol>
-						<li>Estilo vintage</li>
-						<li>Liviana</li>
-						<li>Inicio tu camino como Rockstart</li>
-					</ol>
-				</div>
-			</article><!-- guitarra2 -->
-		</section><!-- guitarras -->
+				<table>
+					<thead>
+						<tr>
+							<th>Modelo</th>
+							<th>Precio</th>
+							<th>Descripción</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Invie Classic</td>
+							<td>$10000</td>
+							<td>Una guitarra muy profesional</td>
+						</tr>
+						<tr>
+							<td>Invie Classic</td>
+							<td>$10000</td>
+							<td>Una guitarra muy profesional</td>
+						</tr>
+						<tr>
+							<td>Invie Classic</td>
+							<td>$10000</td>
+							<td>Una guitarra muy profesional</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>				
+		</section>
 		<footer class="footer">
 			<div class="contenedor">
 				<div class="contacto">
